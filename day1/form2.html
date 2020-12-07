@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            width: 200px;
+            height: 80px;
+        }
+
+        textarea {
+            width: 200px;
+            height: 80px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="https://www.banyuan.club/api/category/list" method="GET">
+
+        <input name="username" type="text" placeholder="请输入用户名">
+        <br>
+        <br>
+
+        <input name="password" type="password" placeholder="请输入密码">
+        <br>
+        <br>
+
+        <textarea name="qianming" placeholder="请输入签名"></textarea>
+
+        <button type="submit">登录</button>
+
+        <button type="reset">重置</button>
+
+    </form>
+    
+</body>
+</html>
